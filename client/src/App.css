@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80vw;
+  height: 80vw;
+}
+button {
+  border-radius: 0 !important;
+  outline: none;
+  font-size: 50px !important;
+  line-height: 0;
+  user-select: none !important;
+}
+button:focus,
+button:focus-visible {
+  outline: none !important;
+}
+button:disabled {
+  color: #fff;
+  pointer-events: none !important;
+}
+
+@media screen and (min-width: 600px) {
+  .board {
+    width: 65vw;
+    height: 65vw;
+  }
+}
+@media screen and (min-width: 700px) {
+  .board {
+    width: 60vw;
+    height: 60vw;
+  }
+}
+@media screen and (min-width: 800px) {
+  .board {
+    width: 55vw;
+    height: 55vw;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .board {
+    width: 65vh;
+    height: 65vh;
+  }
+}

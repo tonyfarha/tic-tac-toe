@@ -1,0 +1,11 @@
+{
+    "name": "tic-tac-toe-server-client",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\""
+    },
+    "author": "Tony Farha",
+    "devDependencies": {
+        "concurrently": "^7.6.0"
+    }
+}
