@@ -2,6 +2,8 @@
 
 This project features a real-time Tic Tac Toe game developed using React and socket.io. Two players can compete against each other in real-time.
 
+![Demo](./demo.gif)
+
 ## Installation
 
 Follow these steps to set up the project locally:
